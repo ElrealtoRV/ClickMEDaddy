@@ -1,0 +1,33 @@
+.btn1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+border-radius: 20px 10px 20px 10px; 
+width: 50px;
+height: 100px;
+font-size: 30px;
+position:absolute;
+left: 0;
+right:0;
+margin-left: auto;
+margin-right: auto;
+margin-top:20%;
+color:white;
+
+animation-name: btn1;
+animation-duration: 2s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+@keyframes btn1 {
+    from {
+      background-color: #ff0202;
+      width: 300px;
+      top: 10px;
+    }
+    to {
+      background-color: #33475b;
+      width: 80px;
+      top: 100px;
+    }
+}
+
